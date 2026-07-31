@@ -1,7 +1,31 @@
 aid: omnius
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/omnius.png
 name: Omnius
-description: Omnius is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  omni:us (operated by Qidenus Group GmbH, Berlin) is an insurance technology
+  company building agentic AI for claims processing. Its platform automates
+  end-to-end claims handling — from first notice of loss to settlement — across
+  property, casualty, and marine lines, combining document intake, machine
+  reading of structured and unstructured text, images and handwriting, and
+  decision support trained on millions of annotated claims and insurance
+  documents. Products include No-Touch Claim Automation, an Agentic Co-Pilot for
+  complex claim decisions, Leakage Reduction, and a custom Insurance AI Modeller.
+  omni:us was surfaced as a portfolio company of the venture firm Anthemis and
+  added to the API Evangelist network. As of this enrichment pass the company
+  markets an enterprise B2B product sold direct to carriers; it publishes a
+  public marketing site, blog, and legal terms, but exposes no public developer
+  portal, API documentation, or machine-readable API contract.
 url: https://raw.githubusercontent.com/api-evangelist/omnius/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Claims Automation
+- Artificial Intelligence
+- Agentic AI
+- Document Processing
+- Machine Learning
 apis: []
+common:
+- type: DomainSecurity
+  url: security/omnius-domain-security.yml
+- type: Website
+  url: https://omnius.com
+- type: Blog
+  url: https://omnius.com/blog/
+- type: Support
+  url: https://omnius.com/contact/
+- type: PrivacyPolicy
+  url: https://omnius.com/legal/privacy/
+- type: TermsOfService
+  url: https://omnius.com/legal/tos/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
