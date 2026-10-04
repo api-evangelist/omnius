@@ -53,9 +53,9 @@ tags:
 - Insurtech
 - Claims Automation
 - Artificial Intelligence
-- Agentic AI
+- AI Agents
 - Document Processing
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Insurance
@@ -65,6 +65,7 @@ tags_raw:
 - Agentic AI
 - Document Processing
 - Machine Learning
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
